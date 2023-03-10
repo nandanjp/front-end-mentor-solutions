@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="card">
+        <div class="result">
+          <h2 class="result-title">Your Result</h2>
+          <div class="result-score">
+            <div class="result-score-numerator">76</div>
+            <div class="result-score-denominator">of 100</div>
+          </div>
+          <div class="result-description">
+            <div class="result-description-title">Great</div>
+            <div class="result-description-info">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <h2 class="summary-title">Summary</h2>
+          <div class="summary-items">
+            <div class="summary-item reaction">
+              <div class="summary-item-type">
+                <img
+                  src="./images/icon-reaction.svg"
+                  alt=""
+                  class="summary-item-type-icon"
+                />
+                <p class="summary-item-type-name">Reaction</p>
+              </div>
+              <p class="summary-item-result">80 / 100</p>
+            </div>
+            <div class="summary-item memory">
+              <div class="summary-item-type">
+                <img
+                  src="./images/icon-memory.svg"
+                  alt=""
+                  class="summary-item-type-icon"
+                />
+                <p class="summary-item-type-name">Memory</p>
+              </div>
+              <p class="summary-item-result">92 / 100</p>
+            </div>
+            <div class="summary-item verbal">
+              <div class="summary-item-type">
+                <svg
+                  class="summary-item-type-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    stroke="#00BB8F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.25"
+                    d="M7.5 10h5M10 18.333A8.333 8.333 0 1 0 1.667 10c0 1.518.406 2.942 1.115 4.167l-.699 3.75 3.75-.699A8.295 8.295 0 0 0 10 18.333Z"
+                  />
+                </svg>
+                <p class="summary-item-type-name">Verbal</p>
+              </div>
+              <p class="summary-item-result">61 / 100</p>
+            </div>
+            <div class="summary-item visual">
+              <div class="summary-item-type">
+                <img
+                  src="./images/icon-visual.svg"
+                  alt=""
+                  class="summary-item-type-icon"
+                />
+                <p class="summary-item-type-name">Visual</p>
+              </div>
+              <p class="summary-item-result">72 / 100</p>
+            </div>
+          </div>
+
+          <button class="summary-continue-btn">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
